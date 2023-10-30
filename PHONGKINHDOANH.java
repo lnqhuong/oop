@@ -12,7 +12,7 @@ class PHONGKINHDOANH extends PHONGBAN {
     }
 
     public PHONGKINHDOANH (String maphong, String tenphong, String trgphong, int slnv, long doanhthu, String duAnDauTu, long ngansach) {
-        super (maphong, tenphong, trgphong, slnv);
+        super(maphong, tenphong, trgphong, slnv);
         this.doanhthu = doanhthu;
         this.duAnDauTu = duAnDauTu;
         this.ngansach = ngansach;
